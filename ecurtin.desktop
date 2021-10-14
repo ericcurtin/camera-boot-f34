@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Cheese
+Comment=This session logs you into Cheese
+Exec=/usr/bin/cheese
+TryExec=/usr/bin/cheese
+Type=Application
+DesktopNames=Cheese
+
