@@ -1,0 +1,5 @@
+sudo systemctl list-dependencies graphical.target
+
+# Change plymouth theme, not working on pi
+sudo plymouth-set-default-theme bgrt && sudo plymouth-set-default-theme -R bgrt && sudo dracut -f && sudo reboo
+
