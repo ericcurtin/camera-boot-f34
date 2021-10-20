@@ -1,0 +1,109 @@
+sudo dnf install weston
+Fedora 34 openh264 (From Cisco) - aarch64       2.4 kB/s | 2.5 kB     00:01    
+Fedora Modular 34 - aarch64                     4.1 MB/s | 4.8 MB     00:01    
+Fedora Modular 34 - aarch64 - Updates           2.3 MB/s | 4.1 MB     00:01    
+Fedora 34 - aarch64 - Updates                   3.6 MB/s |  26 MB     00:07    
+Fedora 34 - aarch64                             5.3 MB/s |  70 MB     00:13    
+Dependencies resolved.
+================================================================================
+ Package                    Arch       Version                 Repository  Size
+================================================================================
+Installing:
+ weston                     aarch64    8.0.0-8.fc34            updates    620 k
+Installing dependencies:
+ alsa-lib                   aarch64    1.2.5.1-2.fc34          updates    480 k
+ avahi-libs                 aarch64    0.8-14.fc34             updates     67 k
+ cairo                      aarch64    1.17.4-3.fc34           fedora     653 k
+ cdparanoia-libs            aarch64    10.2-37.fc34            updates     52 k
+ colord-libs                aarch64    1.4.5-2.fc34            fedora     229 k
+ cups-libs                  aarch64    1:2.3.3op2-7.fc34       updates    277 k
+ flac-libs                  aarch64    1.3.3-7.fc34            fedora     197 k
+ fontconfig                 aarch64    2.13.94-2.fc34          updates    277 k
+ freerdp-libs               aarch64    2:2.3.2-1.fc34          updates    969 k
+ freetype                   aarch64    2.10.4-3.fc34           fedora     389 k
+ fribidi                    aarch64    1.0.10-4.fc34           fedora      85 k
+ graphene                   aarch64    1.10.6-2.fc34           updates     63 k
+ graphite2                  aarch64    1.3.14-7.fc34           fedora      92 k
+ gsm                        aarch64    1.0.19-5.fc34           updates     34 k
+ gstreamer1                 aarch64    1.19.1-2.1.18.4.fc34    updates    1.3 M
+ gstreamer1-plugins-base    aarch64    1.19.1-2.1.18.4.fc34    updates    2.0 M
+ harfbuzz                   aarch64    2.7.4-3.fc34            fedora     634 k
+ iso-codes                  noarch     4.6.0-1.fc34            fedora     3.4 M
+ lame-libs                  aarch64    3.100-10.fc34           fedora     335 k
+ lcms2                      aarch64    2.12-1.fc34             fedora     168 k
+ libICE                     aarch64    1.0.10-6.fc34           fedora      70 k
+ libSM                      aarch64    1.2.3-8.fc34            fedora      42 k
+ libX11                     aarch64    1.7.2-3.fc34            updates    638 k
+ libX11-common              noarch     1.7.2-3.fc34            updates    152 k
+ libX11-xcb                 aarch64    1.7.2-3.fc34            updates     11 k
+ libXcursor                 aarch64    1.2.0-5.fc34            fedora      30 k
+ libXdamage                 aarch64    1.1.5-5.fc34            fedora      22 k
+ libXext                    aarch64    1.3.4-6.fc34            fedora      39 k
+ libXfixes                  aarch64    6.0.0-1.fc34            updates     19 k
+ libXft                     aarch64    2.3.3-6.fc34            fedora      61 k
+ libXi                      aarch64    1.7.10-6.fc34           fedora      38 k
+ libXinerama                aarch64    1.1.4-8.fc34            fedora      14 k
+ libXrender                 aarch64    0.9.10-14.fc34          fedora      26 k
+ libXtst                    aarch64    1.2.3-14.fc34           fedora      21 k
+ libXv                      aarch64    1.0.11-14.fc34          fedora      18 k
+ libXxf86vm                 aarch64    1.1.4-16.fc34           fedora      18 k
+ libasyncns                 aarch64    0.8-20.fc34             fedora      30 k
+ libdatrie                  aarch64    0.2.13-1.fc34           fedora      32 k
+ libdrm                     aarch64    2.4.107-1.fc34          updates    134 k
+ libevdev                   aarch64    1.11.0-1.fc34           fedora      45 k
+ libglvnd                   aarch64    1:1.3.3-1.fc34          updates    131 k
+ libglvnd-egl               aarch64    1:1.3.3-1.fc34          updates     37 k
+ libglvnd-gles              aarch64    1:1.3.3-1.fc34          updates     34 k
+ libglvnd-glx               aarch64    1:1.3.3-1.fc34          updates    148 k
+ libgudev                   aarch64    236-1.fc34              fedora      34 k
+ libgusb                    aarch64    0.3.7-1.fc34            updates     48 k
+ libicu                     aarch64    67.1-7.fc34             updates    9.5 M
+ libinput                   aarch64    1.18.1-1.fc34           updates    182 k
+ libjpeg-turbo              aarch64    2.0.90-3.fc34           updates    169 k
+ libogg                     aarch64    2:1.3.4-4.fc34          fedora      33 k
+ libpng                     aarch64    2:1.6.37-10.fc34        fedora     114 k
+ libsndfile                 aarch64    1.0.31-5.fc34.fc34      updates    207 k
+ libthai                    aarch64    0.1.28-6.fc34           fedora     210 k
+ libtheora                  aarch64    1:1.1.1-29.fc34         fedora     155 k
+ libunwind                  aarch64    1.4.0-5.fc34            fedora      67 k
+ libva                      aarch64    2.11.0-1.fc34           fedora     100 k
+ libvisual                  aarch64    1:0.4.0-32.fc34         fedora     142 k
+ libvorbis                  aarch64    1:1.3.7-3.fc34          fedora     195 k
+ libwacom                   aarch64    1.12-1.fc34             updates     47 k
+ libwacom-data              noarch     1.12-1.fc34             updates    101 k
+ libwayland-client          aarch64    1.19.0-1.fc34           fedora      32 k
+ libwayland-cursor          aarch64    1.19.0-1.fc34           fedora      19 k
+ libwayland-egl             aarch64    1.19.0-1.fc34           fedora      13 k
+ libwayland-server          aarch64    1.19.0-1.fc34           fedora      41 k
+ libwebp                    aarch64    1.2.1-1.fc34            updates    252 k
+ libwinpr                   aarch64    2:2.3.2-1.fc34          updates    347 k
+ libxcb                     aarch64    1.13.1-7.fc34           fedora     231 k
+ libxkbcommon               aarch64    1.3.0-1.fc34            updates    142 k
+ libxkbfile                 aarch64    1.1.0-6.fc34            fedora      89 k
+ libxshmfence               aarch64    1.3-8.fc34              fedora      12 k
+ llvm-libs                  aarch64    12.0.1-1.fc34           updates     22 M
+ mesa-dri-drivers           aarch64    21.1.8-3.fc34           updates     18 M
+ mesa-filesystem            aarch64    21.1.8-3.fc34           updates     16 k
+ mesa-libEGL                aarch64    21.1.8-3.fc34           updates    117 k
+ mesa-libGL                 aarch64    21.1.8-3.fc34           updates    178 k
+ mesa-libgbm                aarch64    21.1.8-3.fc34           updates     42 k
+ mesa-libglapi              aarch64    21.1.8-3.fc34           updates     85 k
+ mesa-vulkan-drivers        aarch64    21.1.8-3.fc34           updates    4.0 M
+ mtdev                      aarch64    1.1.5-20.fc34           fedora      21 k
+ opus                       aarch64    1.3.1-8.fc34            fedora     196 k
+ orc                        aarch64    0.4.31-4.fc34           fedora     181 k
+ pango                      aarch64    1.48.10-1.fc34          updates    295 k
+ pixman                     aarch64    0.40.0-3.fc34           fedora     171 k
+ pulseaudio-libs            aarch64    14.2-3.fc34             fedora     693 k
+ soxr                       aarch64    0.1.3-9.fc34            fedora      71 k
+ vulkan-loader              aarch64    1.2.189.0-1.fc34        updates    123 k
+ weston-libs                aarch64    8.0.0-8.fc34            updates    316 k
+ xkeyboard-config           noarch     2.33-1.fc34             updates    783 k
+ xml-common                 noarch     0.6.3-56.fc34           fedora      31 k
+
+Transaction Summary
+================================================================================
+Install  90 Packages
+
+Total download size: 74 M
+Installed size: 311 M
